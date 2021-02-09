@@ -1,0 +1,1 @@
+This program will invoking functions internally handling pointers and functions in the same code
