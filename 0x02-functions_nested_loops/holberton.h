@@ -19,4 +19,7 @@ int _isalpha(int c);
 /* Return a int and print a number*/
 int print_sign(int n);
 
+/* Return a int and print number abs */
+int _abs(int);
+
 #endif
