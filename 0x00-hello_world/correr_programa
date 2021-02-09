@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Ingrese en nombre del programa"
+read program
+gcc $program
+./a.out
