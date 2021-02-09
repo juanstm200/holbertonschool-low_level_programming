@@ -22,4 +22,10 @@ int print_sign(int n);
 /* Return a int and print number abs */
 int _abs(int);
 
+/* Return a int and print number last */
+int print_last_digit(int);
+
+/* Not return type date */
+void jack_bauer(void);
+
 #endif
