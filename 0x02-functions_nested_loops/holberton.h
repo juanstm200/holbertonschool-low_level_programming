@@ -28,4 +28,13 @@ int print_last_digit(int);
 /* Not return type date */
 void jack_bauer(void);
 
+/* Not return type  */
+void times_table(void);
+
+/* Return type int in the function main*/
+int add(int, int);
+
+/* Not return type */
+void print_to_98(int n);
+
 #endif
