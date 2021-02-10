@@ -13,6 +13,7 @@ void jack_bauer(void)
 		for (min = 0; min <= 59; min++)
 		{
 			int h1, h2, m1, m2;
+
 			h1 = hora / 10;
 			h2 = hora % 10;
 
