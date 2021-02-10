@@ -3,13 +3,13 @@
 
 /**
  * print_to_98 - Not return type date
- *
+ * @n: variable of type int of the fuction
  */
 void print_to_98(int n)
 {
 	int a, i;
 
-	if ( n > 98)
+	if (n > 98)
 	{
 		for (i = n; i >= 98; i--)
 		{
