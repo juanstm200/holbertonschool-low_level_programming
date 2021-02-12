@@ -25,7 +25,11 @@ int main(void)
 		}
 		else if (buzz == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
+			if (i < 100)
+			{
+				putchar(' ');
+			}
 		}
 		else if ((i != (fizz == 0)) && (i != (buzz == 0)))
 		{
