@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - check the code for Holberton
+* main - print fizz or buzz
 *
-* Return: Always 0
+* Return: value 0
 */
 
 int main(void)
