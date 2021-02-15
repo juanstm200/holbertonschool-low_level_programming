@@ -1,0 +1,1 @@
+write fuctions and arrays, pointers and more programing :)
