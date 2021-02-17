@@ -1,6 +1,9 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+/* writes the character c to stdout*/
+int _putchar(char c);
+
 /* Not return change number n by oter number int*/
 void reset_to_98(int *n);
 
@@ -15,6 +18,5 @@ void _puts(char *str);
 
 /* prints a string, in reverse*/
 void print_rev(char *s);
-
 
 #endif
