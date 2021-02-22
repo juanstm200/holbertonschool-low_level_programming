@@ -1,0 +1,1 @@
+Write codig, more pinters arrays and strings but create news fuctions for requer
