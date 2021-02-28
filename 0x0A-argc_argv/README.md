@@ -1,0 +1,1 @@
+Write date for parameter of input of main by console
