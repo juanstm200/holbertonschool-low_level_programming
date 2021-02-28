@@ -6,8 +6,10 @@
  * @agrv: array of string of enter form console
  * Return: not return end program
  */
-int main(int agrc, char *agrv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", agrv[0]);
+	argc = 0;
+
+	printf("%s\n", argv[argc]);
 	return (0);
 }
