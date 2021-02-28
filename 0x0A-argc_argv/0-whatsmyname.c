@@ -2,8 +2,8 @@
 
 /**
  * main - programa main
- * @agrc: integer length of agrv
- * @agrv: array of string of enter form console
+ * @argc: integer length of agrv
+ * @argv: array of string of enter form console
  * Return: not return end program
  */
 int main(int argc, char *argv[])
