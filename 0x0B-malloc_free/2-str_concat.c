@@ -18,27 +18,27 @@ char *str_concat(char *s1, char *s2)
 	{}
 
 	cct = (char *) malloc((i + j) * sizeof(char));
-
 	if (cct == NULL)
 	{
 		return (NULL);
 	}
-
 	count1 = 0;
 	count2 = 0;
 
-	while (count1 < i)
-	{
-		cct[count1] = s1[count1];
-		count1++;
-	}
+	if (s1)
+		while (count1 < i)
+		{
+			cct[count1] = s1[count1];
+			count1++;
+		}
+	if (s2)
 
-	while (count1 < (i + j))
-	{
-		cct[count1] = s2[count2];
-		count1++;
-		count2++;
-	}
+		while (count1 < (i + j))
+		{
+			cct[count1] = s2[count2];
+			count1++;
+			count2++;
+		}
 
 	cct[count1] = '\0';
 	return (cct);
