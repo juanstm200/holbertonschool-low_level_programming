@@ -14,7 +14,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	unsigned int i = 0;
-	char *word = NULL;
+	char *word;
 
 	word = (char *) malloc(size * sizeof(char));
 
@@ -22,12 +22,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return (0);
 	}
-	else
-	{
-		for (; i <= size; i++)
-			word[i] = c;
 
-		word[i + 1] = '\0';
-	}
+	for (; i < size; i++)
+		word[i] = c;
+
+	word[i + 1] = '\0';
 	return (word);
 }
