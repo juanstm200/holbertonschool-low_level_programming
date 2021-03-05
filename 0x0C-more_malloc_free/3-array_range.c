@@ -21,8 +21,8 @@ int *array_range(int min, int max)
 	if (point == NULL)
 		return (NULL);
 
-	for (i = min; i <= max; i++)
-		point[i] = i;
+	for (i = min; min <= max; i++)
+		point[i] = min++;
 
 	return (point);
 }
