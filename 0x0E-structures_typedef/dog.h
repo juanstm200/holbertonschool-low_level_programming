@@ -7,12 +7,12 @@
  * @age: age of dog
  * @owner: name of person
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
 /* function that prints a struct dog */
 void print_dog(struct dog *d);
