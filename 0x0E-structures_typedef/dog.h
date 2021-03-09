@@ -20,7 +20,4 @@ void print_dog(struct dog *d);
 /*  function that initialize a variable of type struct dog */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
-/* Write a function that frees dogs. */
-void free_dog(dog_t *d);
-
 #endif
