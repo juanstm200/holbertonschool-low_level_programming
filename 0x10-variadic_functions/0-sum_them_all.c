@@ -7,24 +7,23 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+	unsigned int resp, cont;
+
+	resp = 0;
+
+	va_list number;
+
+	va_start(number, n);
+
+	for (cont = 0; cont < n; cont++)
+	{
+		resp += va_arg(number, unsigned int);
+	}
+
 	if (n == 0)
 	{
 		return (0);
 	}
 
-	int a = n;
-
-	va_list sum;
-
-	va_start(sum, n);
-
-	int resp = 0;
-
-	for (; a; a--)
-	{
-		resp += va_arg(sum, int);
-	}
-
-	va_end(sum);
 	return (resp);
 }
