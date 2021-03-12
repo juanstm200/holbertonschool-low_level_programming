@@ -1,1 +1,0 @@
-Write functions with variadig and more ;)
