@@ -10,11 +10,8 @@ void print_all(const char * const format, ...)
 	va_list all;
 
 	va_start(all, format);
-	if (format == NULL)
-	{
-		return;
-	}
-	else
+
+	if (format != NULL)
 	{
 		while (format[i] != '\0')
 		{
