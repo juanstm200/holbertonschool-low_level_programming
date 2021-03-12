@@ -1,0 +1,1 @@
+Write functions with variadic and more ;)
