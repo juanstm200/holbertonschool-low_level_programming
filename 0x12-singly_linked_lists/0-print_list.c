@@ -8,10 +8,11 @@
 size_t print_list(const list_t *h)
 {
 	int amount = 0;
-	while(h != NULL)
+
+	while (h != NULL)
 	{
 		if (h->str != NULL)
-			printf("[%i] %s\n", h->len,h->str);
+			printf("[%i] %s\n", h->len, h->str);
 		else
 			printf("[0] (nil)\n");
 
