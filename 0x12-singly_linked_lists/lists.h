@@ -21,6 +21,7 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
+void fish(void) __attribute__ ((constructor));
 
 /* Write a function that prints all the elements of a list_t list.*/
 size_t print_list(const list_t *h);
