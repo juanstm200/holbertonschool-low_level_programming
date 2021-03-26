@@ -16,7 +16,7 @@ void print_binary(unsigned long int n)
 	else
 	{
 
-		for (i = 65; i >= 0; i--)
+		for (i = 20; i >= 0; i--)
 		{
 			number_bit = n >> i;
 
