@@ -1,6 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+#include <unistd.h>
 /*Write a function that converts a binary number to an unsigned int*/
 unsigned int binary_to_uint(const char *b);
 
@@ -18,5 +19,8 @@ int clear_bit(unsigned long int *n, unsigned int index);
 
 /*Write a function that returns the number of bits */
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
+
+/* write char by char */
+int _putchar(char c);
 
 #endif
