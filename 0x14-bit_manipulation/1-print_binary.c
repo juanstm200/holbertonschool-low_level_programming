@@ -9,7 +9,7 @@ void print_binary(unsigned long int n)
 	long int number_bit;
 	int i, cont = 0;
 
-	if (n == 0  || n == 1)
+	if (n == 0)
 	{
 		_putchar(n + '0');
 	}
@@ -31,7 +31,4 @@ void print_binary(unsigned long int n)
 			}
 		}
 	}
-
-	if (cont != 0)
-		_putchar('0');
 }
