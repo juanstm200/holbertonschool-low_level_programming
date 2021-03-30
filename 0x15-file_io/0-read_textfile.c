@@ -21,12 +21,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	rnum = read(file, buffer, letters);
-	wnum = write(STDOUT_FILENO, buffer, letters);
+	wnum = write(STDOUT_FILENO, buffer, rnum);
 
-	if (wnum == -1)
-		return (0);
+	if (rnum == wnum)
+		return (rnum);
 
 	close(file);
 	free(buffer);
-	return (rnum);
+	return (0);
 }
