@@ -14,7 +14,7 @@ int create_file(const char *filename, char *text_content)
 	if (filename == NULL)
 		return (-1);
 
-	createFile = open(filename, O_CREAT | O_WRONLY, 0600);
+	createFile = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
 	if (text_content != NULL)
 	{
@@ -22,7 +22,7 @@ int create_file(const char *filename, char *text_content)
 		{}
 
 		wnum = write(createFile, text_content, i);
-		printf("\n%d\n", i);
+		close(createFile);
 
 		if (wnum == -1)
 			return (-1);
