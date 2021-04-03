@@ -1,5 +1,11 @@
 #include "holberton.h"
 
+/**
+ * main - principal program
+ * @ac: number of av string
+ * @av: String enter by console
+ * Return: 0
+ */
 int main(int ac, char *av[])
 {
 	int filed1 = 0, filed2 = 0, br = 1024, bw;
