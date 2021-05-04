@@ -1,0 +1,11 @@
+import random
+import ctypes // de esta forma se importa la funcion para comunicar python con C
+
+cops = ctypes.CDLL('./100-operations.so') // se crea una variable para asignarle el llamado de la libreria dinamica en tiempo de ejecucion
+a = random.randint(-111, 111)
+b = random.randint(-111, 111)
+print("{} + {} = {}".format(a, b, cops.add(a, b)))
+print("{} - {} = {}".format(a, b, cops.sub(a, b)))
+print("{} x {} = {}".format(a, b, cops.mul(a, b)))
+print("{} / {} = {}".format(a, b, cops.div(a, b)))
+print("{} % {} = {}".format(a, b, cops.mod(a, b)))
