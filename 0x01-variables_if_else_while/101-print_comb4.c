@@ -10,6 +10,7 @@ int main(void)
 	int num0 = 48;
 	int num1;
 	int num2;
+
 	while (num0 <= 57)
 	{
 		for (num1 = 48; num1 <= 57; num1++)
